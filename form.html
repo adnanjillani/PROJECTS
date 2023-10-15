@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style>
+      * {
+        background-color: rgb(112, 47, 143);
+      }
+
+    
+    
+    </style>
+  </head>
+  <body>
+    <button><a href="home.html">Home</a></button>
+    <button><a href="list.html">List</a></button>
+    <button><a href="table.html">Table</a></button>
+    <h1 >Form</h1>
+    <form action="">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name"  placeholder=
+        "Enter Your Name" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email:</label>
+        <input type="text" name="" id="email" placeholder="Enter Your Email" />
+      </div>
+      <br />
+      <div>
+        <label for="text">Gender: </label>
+        <label for="Male"
+          >Male:<input type="radio" name="Gender" id="Male"
+        /></label>
+        <label for="Female">
+          Female:<input type="radio" name="Gender" id="Female"
+        /></label>
+        <label for="other">
+          Other:<input type="radio" name="Gender" id="other"
+        /></label>
+      </div>
+      <br />
+      <div>
+        <label for="which sports do you like">which sports do you like:</label>
+        <br />
+        <br />
+        <label for="sport1">
+          <input
+            type="checkbox"
+            name="sports"
+            id="sport1"
+            value=""
+          />Cricket </label
+        ><br />
+        <label for="sport2">
+          <input
+            type="checkbox"
+            name="sports"
+            id="sport2"
+            value=""
+          />Football</label
+        ><br />
+        <label for="sport3">
+          <input type="checkbox" name="sports" id="sport3" /> Tennis</label
+        ><br />
+        <label for="sport4">
+          <input type="checkbox" name="sports" id="sport4" />Technology</label
+        >
+        <br />
+      </div>
+      <div>
+        <h2>Adjust the volume:</h2>
+        <p>Move the slider to select volume</p>
+        <label for="slider">Value:</label>
+        <input type="range" name="slider" id="slider" />
+      </div>
+      <br />
+      <div>
+        <h2>Select:</h2>
+        <p>Please select your city:</p>
+        <select name="" id="">
+          <option value="Lahore">Lahore</option>
+          <option></option>
+          <option value="Karachi">Karachi</option>
+          <option value="Isb">Islamabad</option>
+          <option value="ryk">Rahim yar khan</option>
+        </select>
+      </div>
+      <div>
+        <h2>Other input types:</h2>
+        <h3>
+          File:<input type="file" /> <br />
+          <br />
+          Date:<input type="date" /> <br />
+          <br />
+          Color:<input type="color" /> <br />
+          <br />
+          Time:<input type="time" /> <br />
+          <br />
+          Week:<input type="week" /> <br />
+          <br />
+          Month:<input type="month" /> <br />
+          <br />
+        </h3>
+        <button>Submit</button>
+        <input type="reset" />
+      </div>
+    </form>
+  </body>
+</html>
